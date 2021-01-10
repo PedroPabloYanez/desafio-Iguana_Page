@@ -1,0 +1,149 @@
+/*Estos atributos son para dejar todos los elementos a la izquierda*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #000000;
+  font-family: "Raleway", sans-serif;
+}
+
+/*Titulo principal*/
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  height: 73px;
+}
+
+.titulo h1 {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 59px;
+  width: 221px;
+  height: 59px;
+}
+
+/*Primera Seccion: Imagen principal ocupandotodo el tamaño de página*/
+/* Arriba- abajo cero, y auto para estar al medio*/
+.imagen1 {
+  width: 100%;
+  height: 100vh;
+}
+
+/*Segunda seccion: Texto e imagen alineada de forma horizontal*/
+section .centrar {
+  height: 348px;
+  background-color: #000000;
+}
+section .container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+section .container-center .parrafo {
+  display: inline-block;
+  color: #ffffff;
+  width: 475px;
+  height: 197px;
+  text-align: left;
+  padding: 100px;
+}
+
+section .container-center .imagen2 {
+  width: 399px;
+}
+
+/*Tercera seccion: Título centado y 3 iconos con descrpcion y link*/
+.caracteristicas {
+  background: #1e1a13;
+  color: #ffffff;
+  height: 348px;
+  opacity: 0.98;
+}
+
+.caracteristicas h2 {
+  padding: 70px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.icons-section {
+  color: #ffffff;
+  font-size: 57px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: inherit;
+  text-align: center;
+}
+
+.icons-section a {
+  padding: 0 110px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.container {
+  background-color: #000000;
+  height: 348px;
+}
+
+.color-icon {
+  color: #ffffff;
+}
+
+.color-texto {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+/*Cuarta sección: Imagenes alineada y centrada de forma horizontal*/
+.imagenes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+.imagenes img {
+  width: 316px;
+  height: 202px;
+  margin-right: 15px;
+}
+
+/*Quinta y final: Footer alineado y centado*/
+section,
+footer,
+header {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background: #1e1a13;
+  color: #ffffff;
+  height: 102px;
+  opacity: 0.94;
+}
+
+.centrar-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
